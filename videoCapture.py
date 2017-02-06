@@ -17,7 +17,7 @@ print (webcamReso)
 # out = cv2.VideoWriter('VidPron.avi',fourcc, 20.0, (webcam.get(cv2.CV_CAP_PROP_FRAME_WIDTH),webcam.get(cv2.CV_CAP_PROP_FRAME_WIDTH)))
 # Above line for opencv version 3...below line for opencv version 2.x
 
-out = cv2.VideoWriter('VidPorn.avi',-1, fps, webcamReso)
+out = cv2.VideoWriter('Vid.avi',-1, fps, webcamReso)
 
 no_frames = num_secs*fps
 ctr = 0
