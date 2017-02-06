@@ -6,7 +6,7 @@ out = cv2.VideoWriter('StylizedVidPorn.avi',-1, 20.0, webcamReso)
 
 
 def read_frames_from_video():
-	cap = cv2.VideoCapture('VidPorn.avi')
+	cap = cv2.VideoCapture('Vid.avi')
 	frame_count = 0
 	start_fram = 123
 	choose_iter=[1,2,3,4,4,3,2]
